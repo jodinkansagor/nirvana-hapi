@@ -9,6 +9,9 @@
     "start": "node src/server.js",
     "start:watch": "nodemon src/server.js"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jodinkansagor/nirvana-hapi.git"
