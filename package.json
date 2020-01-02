@@ -1,0 +1,40 @@
+{
+  "name": "nirvana-hapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --runInBand",
+    "test:watch": "npm run test -- --watch",
+    "start": "node src/server.js",
+    "start:watch": "nodemon src/server.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jodinkansagor/nirvana-hapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jodinkansagor/nirvana-hapi/issues"
+  },
+  "homepage": "https://github.com/jodinkansagor/nirvana-hapi#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "hapi": "^18.1.0",
+    "mongoose": "^5.8.3"
+  },
+  "devDependencies": {
+    "@hapi/code": "^7.0.0",
+    "@hapi/lab": "^22.0.2",
+    "@types/jest": "^24.0.25",
+    "eslint": "^6.8.0",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  }
+}
